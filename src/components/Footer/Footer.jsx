@@ -34,10 +34,9 @@ const Links = () => (
   );
   
   
-
 export default function Footer() {
   return (
-    <div className="bg-gray-800 lg:px-[20rem] md:px-10 sm:px-8 py-32 flex flex-col md:grid md:grid-cols-2 text-center md:items-center">
+    <div className="box bg-gray-800 lg:px-[20rem] md:px-10 sm:px-8 py-32 flex flex-col md:grid md:grid-cols-2 text-center md:items-center">
       <Address />
       <Links />
       <SocialIcons />
