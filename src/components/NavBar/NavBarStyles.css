@@ -1,0 +1,15 @@
+/* a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .first-link {
+  
+  }
+   */
+   
+   @media (max-width: 700px) {
+    .md\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-x-reverse: 1;
+    }
+  }
