@@ -41,10 +41,10 @@ export default function NavBar() {
 
     <div className={`fixed top-0 left-0 h-full w-full bg-black transition-all duration-300 ${menuOpen ? 'max-h-screen' : 'max-h-0 overflow-hidden'} md:static md:bg-transparent md:max-h-full md:w-auto md:flex md:items-center md:space-x-10`}> 
       <div className="h-full w-full flex flex-col items-center justify-center space-y-10 md:flex-row md:space-x-10 md:space-y-0"> 
-        <a href="/link1" className="text-white hover:text-blue-300">Link1</a>
-        <a href="/link2" className="text-white hover:text-blue-300">Link2</a>
-        <a href="/link3" className="text-white hover:text-blue-300">Link3</a>
-        <a href="/link4" className="text-white hover:text-blue-300">Link4</a>
+        <a href="!#" className="text-white hover:text-blue-300">Link1</a>
+        <a href="!#" className="text-white hover:text-blue-300">Link2</a>
+        <a href="!#" className="text-white hover:text-blue-300">Link3</a>
+        <a href="!#" className="text-white hover:text-blue-300">Link4</a>
       </div>
     </div>
 
