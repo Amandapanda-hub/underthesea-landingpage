@@ -13,7 +13,7 @@ const SocialIcons = () => (
 
 const Address = () => (
   <div className="text-white space-y-10">
-    <h2 className="text-lg font-bold">Company Name</h2>
+    <h2 className="text-lg font-bold">Marine Mirage</h2>
     <p>1234 Street Name<br />City, State, ZIP</p>
   </div>
 );
