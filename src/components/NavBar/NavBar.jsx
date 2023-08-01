@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faInfoCircle, faEnvelope, faShoppingCart, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import './NavBarStyles.css'
@@ -35,7 +36,7 @@ export default function NavBar() {
       />
 
       <div className="text-2xl font-bold mr-10 md:mx-auto">
-        Marine Mirage
+        <Link href='/'> Marine Mirage</Link>
       </div>
     </div>
 
